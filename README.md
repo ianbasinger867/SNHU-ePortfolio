@@ -38,10 +38,11 @@ By implementing a ring buffer with a running sum, the system avoids repeated re 
 For milestone four, the artifact was enhanced by refining the database layer to support performance optimization, analytical queries, safe schema evolution, all while preserving the existing SQLite architecture and user data.
 This artifact was selected for inclusion in the ePortfolio because it demonstrates applied database design and skills within a realistic, production style application. Rather than focusing on database theory by itself, the Weight Tracker integrates query design, persistence, and performance considerations in a mobile environment where privacy, efficiency, and data integrity are important.
 The database enhancement proves skills in:
-    • Schema refinement and indexing
-    • SQL aggregation and analytical query design
-    • Migration and versioned schema upgrades
-    • Balancing application logic vs database computation
+
+Schema refinement and indexing
+SQL aggregation and analytical query design
+Migration and versioned schema upgrades
+Balancing application logic vs database computation
     
 The artifact improved by moving beyond simple CRUD operations to support analytics ready data access. Indexes were added to frequently queried columns to improve query performance, and new analytical SQL queries were introduced to compute weekly averages, minimum and maximum weights, and goal progress snapshots directly within the database. These enhancements reduce redundant application computation and enable more scalable data analysis as the dataset may grow.
 
