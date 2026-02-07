@@ -20,13 +20,14 @@ This artifact was improved by extending beyond basic data storage and display in
 
 ## Course Outcome Alignment
 This enhancement meets the planned course outcomes, particularly:
-    • Design and evaluate computing solutions using algorithmic principles and computer science practices while managing trade-offs
 
-        ◦  The enhancement required selecting appropriate algorithms and data structures while considering time complexity, memory usage, and mobile performance constraints. Incremental updates were chosen over repeated full-dataset computation to reduce computational overhead.
+Design and evaluate computing solutions using algorithmic principles and computer science practices while managing trade-offs
 
-    • Demonstrate the ability to use well-founded and innovative techniques, skills, and tools in computing practices
+The enhancement required selecting appropriate algorithms and data structures while considering time complexity, memory usage, and mobile performance constraints. Incremental updates were chosen over repeated full-dataset computation to reduce computational overhead.
 
-        ◦  The implementation applies established statistical techniques (moving averages, exponential smoothing, regression) within a mobile application context, demonstrating the ability to translate mathematical concepts into working software logic.
+Demonstrate the ability to use well-founded and innovative techniques, skills, and tools in computing practices
+
+The implementation applies established statistical techniques (moving averages, exponential smoothing, regression) within a mobile application context, demonstrating the ability to translate mathematical concepts into working software logic.
 
 ## Reflection on Enhancement Process
 Enhancing this artifact reinforced the importance of adapting algorithmic solutions to existing system constraints, rather than redesigning core components unnecessarily. One challenge I encountered was integrating new analytical logic with an immutable data model where weight values are stored as strings and domain objects required specific constructors. Rather than refactoring the data model, the enhancement was designed to parse and process values safely while preserving compatibility with the existing architecture.
@@ -43,16 +44,19 @@ The database enhancement proves skills in:
     • Balancing application logic vs database computation
     
 The artifact improved by moving beyond simple CRUD operations to support analytics ready data access. Indexes were added to frequently queried columns to improve query performance, and new analytical SQL queries were introduced to compute weekly averages, minimum and maximum weights, and goal progress snapshots directly within the database. These enhancements reduce redundant application computation and enable more scalable data analysis as the dataset may grow.
-Course Outcome Alignment
+
+## Course Outcome Alignment
 The database enhancement meets course outcomes identified in Module One. It demonstrates progress toward:
-    • Design and evaluate computing solutions while managing trade-offs
- Design decisions were made to move aggregation and summary logic into SQL rather than recomputing values repeatedly in application code. This reflects an understanding of performance trade-offs between storage, computation, and maintainability.
 
-    • Use well-founded techniques, skills, and tools to implement computing solutions
- The enhancement applies standard database practices such as indexing, aggregation functions, and versioned upgrades to deliver measurable performance and analytical improvements without altering application behavior.
-    • Develop a security and privacy mindset
+Design and evaluate computing solutions while managing trade-offs
 
- All data remains stored locally on the device; schema changes preserve existing user data, and analytical queries operate only on the minimum required fields. This ensures that health-adjacent data is handled responsibly and securely.
+Design decisions were made to move aggregation and summary logic into SQL rather than recomputing values repeatedly in application code. This reflects an understanding of performance trade-offs between storage, computation, and maintainability.
+well-founded techniques, skills, and tools to implement computing solutions
+
+The enhancement applies standard database practices such as indexing, aggregation functions, and versioned upgrades to deliver measurable performance and analytical improvements without altering application behavior.
+Develop a security and privacy mindset
+
+All data remains stored locally on the device; schema changes preserve existing user data, and analytical queries operate only on the minimum required fields. This ensures that health-adjacent data is handled responsibly and securely.
 
 
 ## Reflection
