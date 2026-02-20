@@ -2,6 +2,27 @@
 SNHU ePortfolio
 
 
+# Self Assessment
+Throughout the development and enhancement of my ePortfolio artifacts, I have demonstrated growth across multiple domains of computer science, including software engineering, algorithms, database design, and system-level thinking. Each milestone reflects not only technical skill development but also increasing confidence in evaluating and improving existing systems.
+
+The Mobile Weight Tracking Application evolved from a functional academic assignment into a more refined, production style software solution. Enhancement One strengthened my understanding of modular architecture, maintainability, and separation of concerns. Enhancement Two expanded the system with algorithmic intelligence, integrating statistical techniques such as moving averages, exponential smoothing, and regression into a mobile application environment. Enhancement Three refined database performance, indexing strategy, and schema evolution, reinforcing the importance of long-term scalability and data integrity.
+
+Across these enhancements, I demonstrated the ability to:
+
+Apply algorithmic principles within real-world constraints
+
+Select appropriate data structures and optimize for performance
+
+Refactor and improve legacy code without breaking functionality
+
+Design database schemas that balance efficiency and maintainability
+
+Make informed trade-offs between computation in application logic and SQL
+
+Maintain data privacy and integrity in a user-facing system
+
+One of the most significant areas of growth for me was learning to work within constraints rather than redesigning systems from scratch. Real-world software development often requires adapting to existing architecture, preserving user data, and incrementally improving performance. These enhancements reflect my ability to operate within those constraints while still delivering meaningful improvements.
+
 # Enhancement One
 The artifact selected for this milestone is my Mobile Weight Tracking Application originally developed in CS 360. This application allows users to log daily weight entries, view trends, and manage historical records using a local database. It was originally created as part of a mobile application development project focused on Android Studio, Java, and SQLite integration.
 
