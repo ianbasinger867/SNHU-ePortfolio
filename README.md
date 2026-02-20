@@ -1,7 +1,3 @@
-# SNHU-ePortfolio
-SNHU ePortfolio
-
-
 # Self Assessment
 Throughout the development and enhancement of my ePortfolio artifacts, I have demonstrated growth across multiple domains of computer science, including software engineering, algorithms, database design, and system-level thinking. Each milestone reflects not only technical skill development but also increasing confidence in evaluating and improving existing systems.
 
